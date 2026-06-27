@@ -1,0 +1,41 @@
+# secrets — never commit
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# dev-only log, not part of the application
+debug_log.txt
+core/debug_logs/
+
+# development process notes — kept as private local reference, not part of
+# the public repository
+project memories/
+
+# PDFs — covers resumes/ (real candidate PII) and any report/proposal PDF
+# sitting in the project root
+*.pdf
+
+# design wireframe — reference artifact, not app code
+stage2_refined_and_stage3_ai_feedback.html
+
+# raw external datasets — large, regenerable from source, not needed at
+# deploy time (only the 5 runtime artifacts below are)
+Dataset/
+
+# outputs/ contains both runtime-required artifacts and pipeline-only
+# intermediate files. Per Notebook 09 Section 1, only these 5 are required
+# by the deployed app — everything else in outputs/ is excluded.
+outputs/*
+!outputs/runtime_embedding_artifacts.pkl
+!outputs/runtime_benchmark_lookup.json
+!outputs/ats_scoring_artifacts.json
+!outputs/curated_job_descriptions.csv
+!outputs/esco_skill_mapping.csv

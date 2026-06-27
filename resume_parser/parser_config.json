@@ -1,0 +1,603 @@
+{
+  "section_headings": {
+    "summary": [
+      "professional summary",
+      "summary",
+      "profile",
+      "about me",
+      "objective",
+      "career objective"
+    ],
+    "skills": [
+      "technical skills",
+      "skills",
+      "core competencies",
+      "key skills",
+      "technologies",
+      "tech stack",
+      "tools and technologies",
+      "skills & technologies"
+    ],
+    "experience": [
+      "experience",
+      "work experience",
+      "professional experience",
+      "employment history",
+      "work history",
+      "internship"
+    ],
+    "projects": [
+      "projects",
+      "personal projects",
+      "key projects",
+      "academic projects",
+      "project experience"
+    ],
+    "education": [
+      "education",
+      "academic background",
+      "qualifications",
+      "academic qualifications",
+      "educational background"
+    ],
+    "certifications": [
+      "certification",
+      "certifications",
+      "courses",
+      "licenses",
+      "awards and certifications"
+    ],
+    "achievements": [
+      "achievements",
+      "key achievements",
+      "accomplishments"
+    ]
+  },
+  "section_heading_max_chars": 40,
+  "degree_keyword_map": [
+    [
+      [
+        "phd",
+        "ph.d",
+        "doctorate",
+        "doctor of"
+      ],
+      "Postgraduate"
+    ],
+    [
+      [
+        "llm",
+        "ll.m",
+        "master of laws"
+      ],
+      "Postgraduate"
+    ],
+    [
+      [
+        "mba",
+        "master of business"
+      ],
+      "MBA"
+    ],
+    [
+      [
+        "master",
+        "m.s",
+        "m.sc",
+        "msc",
+        "m.a",
+        "m.eng",
+        "meng",
+        "postgraduate",
+        "post-graduate"
+      ],
+      "Masters"
+    ],
+    [
+      [
+        "bachelor",
+        "b.s",
+        "b.sc",
+        "bsc",
+        "b.a",
+        "b.tech",
+        "btech",
+        "b.e",
+        "undergraduate",
+        "bachelor of technology"
+      ],
+      "Bachelors"
+    ],
+    [
+      [
+        "associate"
+      ],
+      "Associate"
+    ]
+  ],
+  "domain_title_keywords": {
+    "Data Science": [
+      "data scientist",
+      "data analyst",
+      "data engineer",
+      "machine learning",
+      "ml engineer",
+      "ai engineer",
+      "nlp engineer",
+      "analytics engineer",
+      "business intelligence",
+      "bi developer",
+      "bi analyst",
+      "research scientist",
+      "deep learning",
+      "computer vision",
+      "quantitative analyst"
+    ],
+    "Legal": [
+      "attorney",
+      " lawyer",
+      "paralegal",
+      "litigation",
+      "legal analyst",
+      "legal associate",
+      "legal counsel",
+      "general counsel",
+      "compliance officer",
+      "compliance analyst",
+      "contract manager",
+      "legal assistant",
+      "legal director"
+    ],
+    "HR": [
+      "human resources",
+      " hr ",
+      "hr manager",
+      "hr business partner",
+      "hr generalist",
+      "hr director",
+      "hr analyst",
+      "hrbp",
+      "talent acquisition",
+      "recruiter",
+      "recruiting manager",
+      "people operations",
+      "people partner",
+      "compensation analyst",
+      "benefits manager",
+      "workforce planning",
+      "talent management"
+    ],
+    "Engineering": [
+      "mechanical engineer",
+      "civil engineer",
+      "structural engineer",
+      "electrical engineer",
+      "process engineer",
+      "manufacturing engineer",
+      "quality engineer",
+      "chemical engineer",
+      "aerospace engineer",
+      "industrial engineer",
+      "embedded engineer",
+      "hardware engineer",
+      "controls engineer",
+      "field engineer",
+      "reliability engineer",
+      "materials engineer",
+      "test engineer"
+    ],
+    "IT": [
+      "software engineer",
+      "software developer",
+      "devops",
+      "cloud engineer",
+      "backend engineer",
+      "frontend engineer",
+      "full stack",
+      "fullstack",
+      "site reliability",
+      "platform engineer",
+      "infrastructure engineer",
+      "network engineer",
+      "sysadmin",
+      "systems administrator",
+      "cybersecurity",
+      "security engineer",
+      "it support",
+      "it analyst",
+      "it manager",
+      "it director",
+      "solution architect",
+      "solutions architect",
+      "application developer",
+      "mobile developer",
+      "ios developer",
+      "android developer",
+      "web developer",
+      "database administrator",
+      "erp consultant",
+      "salesforce developer",
+      "sap consultant"
+    ],
+    "Management": [
+      "program manager",
+      "project manager",
+      "operations manager",
+      "general manager",
+      "director of operations",
+      "vp of",
+      "head of",
+      "chief of staff",
+      "strategy manager",
+      "engagement manager",
+      "delivery manager",
+      "product manager",
+      "management consultant",
+      "scrum master",
+      "agile coach",
+      "pmo",
+      "portfolio manager",
+      "transformation manager",
+      "change manager"
+    ]
+  },
+  "domain_skill_signals": {
+    "Data Science": [
+      "machine learning",
+      "python (computer programming)",
+      "sql",
+      "pandas",
+      "power bi",
+      "natural language processing",
+      "tensorflow",
+      "hypothesis testing",
+      "regression",
+      "clustering",
+      "classification",
+      "random forest",
+      "scikit-learn",
+      "tableau",
+      "etl",
+      "bigquery",
+      "spark"
+    ],
+    "IT": [
+      "aws",
+      "azure",
+      "gcp",
+      "docker",
+      "kubernetes",
+      "linux",
+      "java (computer programming)",
+      "tools for software configuration management",
+      "ict project management methodologies",
+      "ci/cd",
+      "devops"
+    ],
+    "HR": [
+      "recruit employees",
+      "hr analytics",
+      "manage payroll",
+      "employee engagement",
+      "hrms"
+    ],
+    "Legal": [
+      "legal research",
+      "due diligence",
+      "contract drafting",
+      "ensure ongoing compliance with regulations",
+      "risk management"
+    ],
+    "Engineering": [
+      "cad",
+      "manufacturing",
+      "solidworks",
+      "oversee quality control"
+    ],
+    "Management": [
+      "ict project management methodologies",
+      "risk management",
+      "stakeholder management"
+    ]
+  },
+  "flag_rules": {
+    "management_experience_flag": [
+      "managed a team",
+      "led a team",
+      "team lead",
+      "team leader",
+      "led team",
+      "supervised",
+      "oversaw",
+      "line manager",
+      "direct reports",
+      "people manager",
+      "managed staff"
+    ],
+    "people_management_flag": [
+      "direct reports",
+      "people manager",
+      "managed staff",
+      "performance review",
+      "mentored staff",
+      "managed employees",
+      "team of"
+    ],
+    "project_management_experience_flag": [
+      "project manager",
+      "project management",
+      "pmp",
+      "prince2",
+      "project delivery",
+      "managed project",
+      "project lead",
+      "project lifecycle",
+      "project planning"
+    ],
+    "agile_scrum_experience_flag": [
+      "agile methodology",
+      "scrum framework",
+      "sprint planning",
+      "kanban board",
+      "retrospective",
+      "daily standup",
+      "story points",
+      "scrum master",
+      "agile delivery"
+    ],
+    "client_facing_experience_flag": [
+      "client facing",
+      "client-facing",
+      "external stakeholder",
+      "client relationship",
+      "client delivery",
+      "presented to client",
+      "client engagement",
+      "customer facing"
+    ],
+    "delivery_lead_experience_flag": [
+      "delivery lead",
+      "led delivery",
+      "end-to-end delivery",
+      "delivered end-to-end",
+      "technical lead",
+      "tech lead",
+      "solution delivery",
+      "delivery manager"
+    ],
+    "cloud_experience_flag": [
+      "aws",
+      "azure",
+      "gcp",
+      "google cloud",
+      "ec2",
+      "s3 bucket",
+      "cloud platform",
+      "cloud infrastructure",
+      "cloud deployment",
+      "cloud architecture"
+    ],
+    "ml_experience_flag": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "model training",
+      "model deployment",
+      "random forest",
+      "gradient boosting",
+      "xgboost",
+      "lightgbm",
+      "nlp",
+      "computer vision",
+      "trained a model",
+      "ml model",
+      "predictive model",
+      "classification model",
+      "regression model"
+    ],
+    "compliance_experience_flag": [
+      "regulatory compliance",
+      "gdpr",
+      "sox",
+      "iso 27001",
+      "compliance audit",
+      "risk and compliance",
+      "regulatory framework",
+      "data governance",
+      "policy compliance",
+      "compliance management"
+    ],
+    "enterprise_systems_experience_flag": [
+      "sap",
+      "salesforce",
+      "servicenow",
+      "oracle erp",
+      "erp system",
+      "enterprise system",
+      "crm platform",
+      "workday",
+      "peoplesoft",
+      "enterprise software implementation"
+    ],
+    "offshore_onsite_model_experience_flag": [
+      "offshore team",
+      "onshore-offshore",
+      "offshore delivery",
+      "nearshore",
+      "distributed team across",
+      "offshore model",
+      "onsite-offshore",
+      "global delivery model"
+    ],
+    "multi_vendor_coordination_flag": [
+      "vendor management",
+      "vendor coordination",
+      "multiple vendors",
+      "multi-vendor",
+      "supplier management",
+      "outsourced vendor",
+      "third-party vendor",
+      "external vendor management"
+    ],
+    "process_compliance_experience_flag": [
+      "process improvement",
+      "sop",
+      "standard operating procedure",
+      "process compliance",
+      "process documentation",
+      "process optimization",
+      "process design",
+      "workflow automation",
+      "process automation"
+    ],
+    "documentation_heavy_role_flag": [
+      "technical documentation",
+      "technical writing",
+      "wrote documentation",
+      "maintained documentation",
+      "technical specification",
+      "user manual",
+      "runbook",
+      "knowledge base management",
+      "documentation standards"
+    ],
+    "mentoring_experience_flag": [
+      "mentored",
+      "mentoring",
+      "coached junior",
+      "coaching junior",
+      "trained junior",
+      "knowledge transfer",
+      "guided junior",
+      "onboarded new",
+      "buddy program"
+    ],
+    "stakeholder_management_experience_flag": [
+      "stakeholder management",
+      "senior stakeholder",
+      "executive stakeholder",
+      "cross-functional stakeholder",
+      "c-suite",
+      "presented to leadership",
+      "stakeholder engagement",
+      "stakeholder communication",
+      "stakeholder reporting"
+    ]
+  },
+  "supplementary_vocabulary": {
+    "data_science_ml": [
+      "numpy",
+      "scipy",
+      "scikit-learn",
+      "sklearn",
+      "lightgbm",
+      "xgboost",
+      "catboost",
+      "keras",
+      "pytorch",
+      "matplotlib",
+      "seaborn",
+      "plotly",
+      "tableau",
+      "hypothesis testing",
+      "regression",
+      "clustering",
+      "classification",
+      "random forest",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "nlp",
+      "feature engineering",
+      "a/b testing",
+      "statistical analysis",
+      "etl",
+      "data pipeline",
+      "bigquery",
+      "databricks",
+      "airflow",
+      "dbt",
+      "spark",
+      "hadoop",
+      "looker",
+      "dax",
+      "power query"
+    ],
+    "databases": [
+      "mysql",
+      "postgresql",
+      "sqlite",
+      "mongodb",
+      "redis",
+      "cassandra",
+      "oracle",
+      "sql server",
+      "snowflake",
+      "redshift",
+      "dynamodb",
+      "elasticsearch",
+      "neo4j",
+      "mariadb"
+    ],
+    "it_devops": [
+      "github",
+      "gitlab",
+      "bitbucket",
+      "jenkins",
+      "ci/cd",
+      "terraform",
+      "ansible",
+      "helm",
+      "nginx",
+      "apache",
+      "bash",
+      "shell scripting",
+      "powershell",
+      "rest api",
+      "graphql",
+      "fastapi",
+      "flask",
+      "django",
+      "spring boot",
+      "node.js",
+      "react",
+      "angular",
+      "vue",
+      "typescript",
+      "javascript",
+      "selenium",
+      "pytest",
+      "unit testing",
+      "devops"
+    ],
+    "cloud": [
+      "google cloud",
+      "ec2",
+      "s3",
+      "lambda",
+      "azure devops",
+      "cloud functions",
+      "cloud run",
+      "vertex ai",
+      "sagemaker",
+      "glue",
+      "athena",
+      "cloudwatch",
+      "iam"
+    ],
+    "general_tools": [
+      "excel",
+      "powerpoint",
+      "notion",
+      "ms office",
+      "google sheets",
+      "streamlit",
+      "gradio",
+      "jupyter"
+    ]
+  },
+  "gap_suppress_tokens": [
+    "strategy",
+    "ensure ongoing compliance with regulations"
+  ]
+}

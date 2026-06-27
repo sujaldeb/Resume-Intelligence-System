@@ -1,0 +1,36 @@
+canonical_token,esco_preferred_label,concept_uri,skill_type,match_type,match_confidence,token_category
+agile,ict project management methodologies,http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9,knowledge,exact,1.0,esco_mapped
+aws,,,,none,,platform_tool
+azure,,,,none,,platform_tool
+cad,,,,none,,platform_tool
+compliance,ensure ongoing compliance with regulations,http://data.europa.eu/esco/skill/1c7c161d-1c78-4098-b28d-147857d44699,skill/competence,manual,1.0,esco_mapped
+confluence,use online tools to collaborate,http://data.europa.eu/esco/skill/580660a6-5d3a-421d-a54f-d85b706c2b2f,skill/competence,exact,1.0,esco_mapped
+contract drafting,,,,none,,no_esco_match
+docker,,,,none,,platform_tool
+due diligence,,,,none,,no_esco_match
+employee engagement,,,,none,,no_esco_match
+gcp,,,,none,,platform_tool
+git,tools for software configuration management,http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f,knowledge,exact,1.0,esco_mapped
+hr analytics,,,,none,,no_esco_match
+hrms,,,,none,,platform_tool
+java,java (computer programming),http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389,knowledge,exact,1.0,esco_mapped
+jira,,,,none,,platform_tool
+kubernetes,,,,none,,platform_tool
+legal research,legal research,http://data.europa.eu/esco/skill/a8585efe-4011-47b2-9aed-cd01bd3652c0,knowledge,exact,1.0,esco_mapped
+linux,,,,none,,platform_tool
+machine learning,machine learning,http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43,knowledge,exact,1.0,esco_mapped
+manufacturing,,,,none,,no_esco_match
+nlp,natural language processing,http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a,knowledge,exact,1.0,esco_mapped
+pandas,,,,none,,platform_tool
+payroll,manage payroll,http://data.europa.eu/esco/skill/9d916d7c-89b3-4084-a6d9-e2b0b3091404,skill/competence,manual,1.0,esco_mapped
+power bi,,,,none,,platform_tool
+python,python (computer programming),http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,knowledge,exact,1.0,esco_mapped
+quality control,oversee quality control,http://data.europa.eu/esco/skill/5d34adde-0b78-42b4-9d3d-69e9388d8398,skill/competence,manual,1.0,esco_mapped
+recruitment,recruit employees,http://data.europa.eu/esco/skill/496932f1-0b6b-4f73-9432-d95c7ddcd43b,skill/competence,manual,1.0,esco_mapped
+risk management,risk management,http://data.europa.eu/esco/skill/6eff134b-e34f-4d6e-a6e8-5e47cf2228d0,knowledge,exact,1.0,esco_mapped
+servicenow,,,,none,,platform_tool
+solidworks,,,,none,,platform_tool
+sql,sql,http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742,knowledge,exact,1.0,esco_mapped
+stakeholder management,,,,none,,no_esco_match
+strategy,,,,none,,no_esco_match
+tensorflow,,,,none,,platform_tool

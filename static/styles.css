@@ -1,0 +1,119 @@
+.stApp { background-color: #0a0f1e; }
+.label-sec { font-size:10px; color:#7f77dd; font-weight:600; letter-spacing:.08em;
+             text-transform:uppercase; margin-bottom:10px; }
+.muted { font-size:11px; color:#9ca3af; }
+.white { font-size:13px; color:#f9fafb; font-weight:500; }
+.panel { background:rgba(17,24,39,0.85); border:0.5px solid rgba(55,65,81,0.6);
+         border-radius:12px; padding:16px; height:100%; box-sizing:border-box;
+         backdrop-filter:blur(12px); }
+.divider-line { border:none; border-top:0.5px solid rgba(31,41,55,0.6); margin:16px 0; }
+
+.progress-done   { background:rgba(29,158,117,0.1); border:0.5px solid rgba(29,158,117,0.4);
+                    border-radius:20px; padding:3px 12px; font-size:11px; color:#5dcaa5; }
+.progress-active { background:rgba(59,130,246,0.12); border:0.5px solid #3b82f6;
+                    border-radius:20px; padding:3px 12px; font-size:11px; color:#60a5fa; }
+.progress-future  { background:transparent; border:0.5px solid rgba(55,65,81,0.4);
+                    border-radius:20px; padding:3px 12px; font-size:11px; color:#4b5563; }
+.progress-line    { flex:1; height:0.5px; background:rgba(55,65,81,0.4); margin:0 4px; align-self:center; }
+
+.pb { display:inline-flex; align-items:center; background:rgba(30,42,69,0.9); border:0.5px solid rgba(59,130,246,0.5);
+      border-radius:20px; padding:3px 10px; font-size:10px; line-height:1.3; color:#93c5fd; margin:3px; }
+.pg { display:inline-flex; align-items:center; background:rgba(8,51,68,0.55); border:0.5px solid rgba(34,211,238,0.45);
+      border-radius:20px; padding:3px 10px; font-size:10px; line-height:1.3; color:#67e8f9; margin:3px; }
+.pt { display:inline-flex; align-items:center; background:rgba(15,45,26,0.9); border:0.5px solid rgba(29,158,117,0.5);
+      border-radius:20px; padding:3px 10px; font-size:10px; line-height:1.3; color:#5dcaa5; margin:3px; }
+.pa { display:inline-flex; align-items:center; background:rgba(28,18,8,0.9); border:0.5px solid rgba(217,119,6,0.5);
+      border-radius:20px; padding:3px 10px; font-size:10px; line-height:1.3; color:#d97706; margin:3px; }
+.pp { display:inline-flex; align-items:center; background:rgba(26,22,50,0.9); border:0.5px solid rgba(127,119,221,0.5);
+      border-radius:20px; padding:3px 10px; font-size:10px; line-height:1.3; color:#afa9ec; margin:3px; }
+
+.btn-primary { background:#3b82f6; border:none; border-radius:8px; padding:10px 16px;
+               font-size:13px; font-weight:500; color:#fff; }
+
+.hero-title { font-size:32px; font-weight:600; color:#f9fafb; margin-bottom:6px; }
+.hero-sub   { font-size:14px; color:#9ca3af; margin-bottom:24px; max-width:680px; line-height:1.6; }
+
+.feature-card  { background:rgba(17,24,39,0.85); border:0.5px solid rgba(55,65,81,0.5);
+                  border-radius:12px; padding:16px; height:100%; }
+.feature-title { font-size:13px; color:#f9fafb; font-weight:500; margin-bottom:4px; }
+.feature-desc  { font-size:11px; color:#9ca3af; line-height:1.5; }
+
+/* Stage 1 — added in Step 6 */
+.warn-high { background:rgba(28,18,8,0.95); border:0.5px solid rgba(217,119,6,0.55);
+             border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.annot { background:rgba(26,31,46,0.6); border:0.5px solid rgba(55,65,81,0.35);
+         border-radius:6px; padding:8px 12px; font-size:10px; color:#9ca3af; line-height:1.6;
+         margin-bottom:6px; }
+.pct-bar-bg { background:rgba(31,41,55,0.6); border-radius:4px; height:6px; width:100%; margin-top:6px; }
+.divider { border:none; border-top:0.5px solid rgba(31,41,55,0.6); margin:12px 0; }
+.field-row { display:flex; justify-content:space-between; padding:5px 0;
+             border-bottom:0.5px solid rgba(31,41,55,0.4); font-size:12px; }
+.field-row:last-child { border-bottom:none; }
+.domain-hint-green { background:rgba(15,45,26,0.5); border:0.5px solid rgba(29,158,117,0.35);
+                      border-radius:8px; padding:8px 12px; font-size:11px; color:#5dcaa5; margin-bottom:10px; }
+.domain-hint-blue { background:rgba(30,42,69,0.5); border:0.5px solid rgba(59,130,246,0.35);
+                     border-radius:8px; padding:8px 12px; font-size:11px; color:#93c5fd; margin-bottom:10px; }
+.domain-hint-amber { background:rgba(28,18,8,0.5); border:0.5px solid rgba(217,119,6,0.35);
+                      border-radius:8px; padding:8px 12px; font-size:11px; color:#d97706; margin-bottom:10px; }
+.btn-disabled { background:rgba(55,65,81,0.4); border:0.5px solid rgba(55,65,81,0.6);
+                border-radius:8px; padding:10px 16px; font-size:13px; font-weight:500;
+                color:#4b5563; text-align:center; cursor:not-allowed; }
+
+/* Stage 2 — added in Step 8 */
+.panel-purple { background:rgba(18,16,38,0.9); border:0.5px solid rgba(83,74,183,0.45);
+                border-radius:12px; padding:16px; height:100%; box-sizing:border-box; }
+.panel-glow-blue { background:rgba(17,24,39,0.85); border:0.5px solid rgba(59,130,246,0.35);
+                    border-radius:12px; padding:16px; box-shadow:0 0 20px rgba(59,130,246,0.08);
+                    height:100%; box-sizing:border-box; }
+.panel-glow-purple { background:rgba(18,16,38,0.9); border:0.5px solid rgba(127,119,221,0.35);
+                      border-radius:12px; padding:16px; box-shadow:0 0 20px rgba(127,119,221,0.08);
+                      height:100%; box-sizing:border-box; }
+.panel-glow-teal { background:rgba(10,24,19,0.9); border:0.5px solid rgba(29,158,117,0.35);
+                    border-radius:12px; padding:16px; box-shadow:0 0 20px rgba(29,158,117,0.07);
+                    height:100%; box-sizing:border-box; }
+.gap-high { background:rgba(30,42,69,0.9); border:0.5px solid rgba(59,130,246,0.5);
+            border-radius:8px; padding:10px; text-align:center; min-height:48px;
+            display:flex; align-items:center; justify-content:center; box-sizing:border-box; }
+.gap-med { background:rgba(26,31,46,0.7); border:0.5px solid rgba(55,65,81,0.4);
+           border-radius:8px; padding:10px; text-align:center; min-height:48px;
+           display:flex; align-items:center; justify-content:center; box-sizing:border-box; }
+.takeaway-item { display:flex; gap:10px; align-items:flex-start; padding:8px 0;
+                  border-bottom:0.5px solid rgba(31,41,55,0.5); }
+.takeaway-item:last-child { border-bottom:none; }
+.takeaway-dot { width:18px; height:18px; border-radius:50%; background:rgba(127,119,221,0.2);
+                 border:0.5px solid rgba(127,119,221,0.5); display:flex; align-items:center;
+                 justify-content:center; flex-shrink:0; margin-top:1px; font-size:9px; color:#afa9ec; }
+
+/* Stage 3 — AI feedback panel */
+.panel-ai { background:rgba(18,16,38,0.92); border:0.5px solid rgba(127,119,221,0.4);
+            border-radius:12px; padding:20px; box-shadow:0 0 24px rgba(127,119,221,0.1); }
+.panel-ai-section { background:rgba(13,11,28,0.95); border:0.5px solid rgba(55,65,81,0.4);
+                     border-radius:10px; padding:16px; margin-bottom:10px; }
+.panel-ai-section-muted { background:rgba(13,11,28,0.6); border:0.5px solid rgba(55,65,81,0.25);
+                           border-radius:10px; padding:14px; }
+.ai-section-label { font-size:10px; color:#7f77dd; font-weight:600; letter-spacing:.06em;
+                     text-transform:uppercase; margin-bottom:8px; }
+.ai-badge { display:inline-flex; align-items:center; gap:5px; background:rgba(26,22,50,0.8);
+            border:0.5px solid rgba(127,119,221,0.4); border-radius:20px; padding:3px 10px;
+            font-size:10px; color:#afa9ec; }
+.skeleton { background:linear-gradient(90deg,rgba(31,41,55,0.4) 25%,rgba(55,65,81,0.4) 50%,
+            rgba(31,41,55,0.4) 75%); border-radius:4px; background-size:200% 100%;
+            animation:skeleton-shimmer 1.6s infinite; }
+@keyframes skeleton-shimmer { 0% { background-position:200% 0; } 100% { background-position:-200% 0; } }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+.pulse-dot { width:8px; height:8px; border-radius:50%; background:#afa9ec;
+             animation:pulse 1.5s infinite; display:inline-block; }
+
+/* Streamlit's default primary button is red — override to match app theme */
+div[data-testid="stButton"] button[kind="primary"] {
+    background-color:#3b82f6 !important;
+    border-color:#3b82f6 !important;
+}
+div[data-testid="stButton"] button[kind="primary"]:hover {
+    background-color:#2563eb !important;
+    border-color:#2563eb !important;
+}
+div[data-testid="stButton"] button[kind="primary"]:active {
+    background-color:#1d4ed8 !important;
+    border-color:#1d4ed8 !important;
+}
