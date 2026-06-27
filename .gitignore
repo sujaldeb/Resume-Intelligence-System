@@ -18,6 +18,7 @@ core/debug_logs/
 # development process notes — kept as private local reference, not part of
 # the public repository
 project memories/
+resume_parser/validation_report.md
 
 # PDFs — covers resumes/ (real candidate PII) and any report/proposal PDF
 # sitting in the project root
