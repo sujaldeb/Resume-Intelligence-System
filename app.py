@@ -1,8 +1,7 @@
 # app.py
+
 import os
-os.environ["HF_HUB_OFFLINE"] = "1"
-import os
-os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ.setdefault("HF_HUB_OFFLINE", "0")
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 
 import warnings
